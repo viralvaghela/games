@@ -1,0 +1,91 @@
+@media (max-width: 1599px) {
+        .menu-header {
+		width: 77%;
+	}
+}
+
+@media (max-width: 1365px) {
+
+}
+
+@media (max-width: 1199px) {	
+	.menu-header {
+		width: 71%;
+	}
+}
+
+@media (max-width: 991px) {
+    .logo-container{
+        width: 261px;
+    }
+    .logo {
+        width: 201px;
+    }
+    .categories-button{
+        width: 201px;
+    }
+    .search-button{
+        width: 201px;
+    }
+    .menu-container{
+        width: calc(100% - 271px);
+    }
+    .games-slides-text{
+        bottom: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-container{
+        width: 261px;
+    }
+    .logo {
+        width: 201px;
+    }
+    .categories-button{
+        width: 201px;
+    }
+    .search-button{
+        width: 201px;
+    }
+    .menu-container{
+        width: calc(100% - 271px);
+    }
+    .games-slides-text{
+        bottom: 15%;
+    }
+}
+
+@media (max-width: 575px) {
+    .logo-container{
+        width: 111px;
+    }
+    .logo {
+        width: 66px;
+    }
+    .categories-button{
+        width: 86px;
+        left: 15px;
+    }
+    .search-button{
+        width: 86px;
+        left: 15px;
+    }
+    .menu-container{
+        width: calc(100% - 121px);
+    }
+    .big-logo{
+        display: none;
+    }
+    .small-logo{
+        display: block;
+    }
+    .logo-container .active{
+        left: 20px !important
+    }
+    .games-slides-text{
+        bottom: 19%;
+    }
+}
+
+

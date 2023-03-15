@@ -1,0 +1,29 @@
+#back_to_top{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    overflow: hidden;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    color: #ffffff;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 0px 8px 0px #118ab2ff;
+	display: block !important;
+}
+#back_to_top:hover{
+    cursor: pointer;
+}
+#back_to_top svg {
+    fill: #fff;
+    width: 28px;
+    padding-top: 4px;
+}
+@media (max-width: 1199px) {
+    #back_to_top{
+		display: none !important;
+	}
+}

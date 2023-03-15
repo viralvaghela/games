@@ -1,0 +1,15 @@
+    .bsk-2-list-tags a {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font: 400 14px "Yanone Kaffeesatz",Arial,sans-serif;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 10px 0;
+}
+
+.bsk-2-list-tags a:hover {
+    background: #f77f00ff;
+}

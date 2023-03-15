@@ -1,0 +1,74 @@
+.ads{
+    text-align: center;
+}
+.ads, .ads-left,.ads-right{
+    z-index: 100; 
+}
+
+.ads{
+    width: 100%;
+}
+.ads-margin{
+    width: fit-content;
+    margin: auto;
+}
+.ads-left{
+    display:none;
+    position: absolute;
+    top:155px;
+    left: 0;
+    text-align: left;
+    height: 600px;
+}
+.ads-right{
+    display:none;
+    position: absolute;
+    top:155px;
+    right: 0;
+    text-align: right;
+    height: 600px;
+}
+.ads-content{    
+	max-width: 100% !important;
+    width: 100%;
+    overflow: hidden;
+}
+.ads-box{
+    width: fit-content;
+}
+.ads-title{
+    color: #333;
+    text-align: center;
+    background: none;
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+@media (min-width: 1455px) { 
+    .ads-left{
+        display:block;
+    }
+    .ads-right{
+        display:block;
+    }
+    .ads-content-left, .ads-content-right{
+        width:160px;
+    }
+}
+@media (min-width: 1880px) { 
+    .ads-left{
+        display:block;
+    }
+    .ads-right{
+        display:block;
+    }
+    .ads-content-left, .ads-content-right{
+        width: 160px;;
+    }
+}
+
+.ads-game-play-right, ads-game-play-left{
+    height: 300px;
+}
+

@@ -1,0 +1,87 @@
+.dic-panel-heading {
+    margin-top: 8px;
+}   
+.dic-panel-container {
+    border: 1px solid #cdcdcd;
+    padding: 3px;
+    border-radius: 3px;
+    background: var(--bg-panel-color);
+    box-shadow: var(--panel-box-shadow);
+    position: relative;
+    background: #fcfdfe;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+.dic-panel-heading span.dic-title, .dic-panel-heading h1.dic-title {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    /* background-color: #5c6e7e; */
+    color: #fff;
+    font-family: open sans,helvetica neue,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.dic-panel-heading {
+    position: relative;
+}
+
+.dic-panel-body {
+    overflow: hidden;
+}
+
+.dic-panel-body {
+    padding: 10px 0 0 0;
+    position: relative;
+    font-size: 15px;
+    color: #5d6e7f;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 25px;
+}
+span.dic-title:after, h1.dic-title:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-top-color: #f75b00;
+    border-width: 7px 0 0 7px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+a.dic-moregame {
+    float: right;
+    text-transform: uppercase;
+    color: #333333;
+    display: block;
+    font-weight: bold;
+    position: relative;
+}
+
+a.dic-moregame span {
+    float: left;
+    display: block;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+a.dic-moregame svg {
+    float: right;
+    width: 8px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(0%, -50%);
+    margin-top: -1px;
+}
+a.dic-moregame:hover {
+    color: #118ab2ff;
+}

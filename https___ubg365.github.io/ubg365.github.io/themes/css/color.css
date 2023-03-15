@@ -1,0 +1,43 @@
+
+.black{ background: #000000ff}
+.brown{ background: #8a5a44ff}
+.red{ background: #e44a3cff}
+.orange{ background: #f77f00ff}
+.yellow{ background: #fcbf49ff}
+.green{ background: #2d6a4fff}
+.blue{ background: #118ab2ff}
+.violet{ background: #563d7cff}
+.grey{ background: #6c757dff}
+.white{ background: #ffffffff}
+
+.bg-8{ background: #f8f9faff}
+.bg-7{ background: #e9ecefff}
+.bg-6{ background: #dee2e6ff}
+.bg-5{ background: #ced4daff}
+.bg-4{ background: #adb5bdff}
+.bg-3{ background: #6c757dff}
+.bg-2{ background: #495057ff}
+.bg-1{ background: #343a40ff}
+.bg-0{ background: #212529ff}
+
+.c-black{ color: #000000ff}
+.c-brown{ color: #8a5a44ff}
+.c-red{ color: #d62828ff}
+.c-orange{ color: #f77f00ff}
+.c-yellow{ color: #fcbf49ff}
+.c-green{ color: #2d6a4fff}
+.c-blue{ color: #118ab2ff}
+.c-violet{ color: #563d7cff}
+.c-grey{ color: #6c757dff}
+.c-white{ color: #ffffffff}
+
+.bo-black{ border-color: #000000ff !important}
+.bo-brown{ border-color: #8a5a44ff !important}
+.bo-red{ border-color: #e44a3cff !important}
+.bo-orange{ border-color: #f77f00ff !important}
+.bo-yellow{ border-color: #fcbf49ff !important}
+.bo-green{ border-color: #2d6a4fff !important}
+.bo-blue{ border-color: #118ab2ff !important}
+.bo-violet{ border-color: #563d7cff !important}
+.bo-grey{ border-color: #6c757dff !important}
+.bo-white{ border-color: #ffffffff !important}
